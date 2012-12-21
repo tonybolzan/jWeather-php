@@ -1,0 +1,49 @@
+﻿@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.jweatherMain {
+	text-align: center;
+	font-size: 90%;
+	width: 178px;
+	text-shadow: 1px 0 0 #aaa;
+	margin: 0;
+	padding: 0;
+}
+.jweatherMain a {
+	color: #888;
+}
+
+.jweatherMain a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.jweatherCity {
+	padding: 120px 0 0 0;
+	text-transform: uppercase;
+}
+
+.jweatherTemp {
+	color: #3e4930;
+	font-size: 2.8em;
+	font-weight: bold;
+}
+.jweatherDesc, .jweatherCity {
+	font-weight: bold;
+}
+
+.jweatherDesc {
+	margin-bottom: 0.4em;
+}
+
+.jweatherRange, .jweatherWind {
+	font-size: 0.8em;
+}
+
+.jweatherLink {
+	font-size: 0.8em;
+}
